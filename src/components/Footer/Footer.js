@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { Navbar } from 'react-bootstrap';
 
 
-const Footer = (props) => (
-    <footer>
-            <div>Child.LK 2018</div>   
-    </footer>
-);
 
-export default Footer;
+class CustomFooter extends Component {
+    render () {
+        return (
+            <Navbar fixedBottom>
+            <Navbar.Collapse>
+              <Navbar.Text Navbar-center >2018|CHILD.LK</Navbar.Text>
+            </Navbar.Collapse>
+          </Navbar>           
+        );
+    }
+};
+
+export default CustomFooter;
