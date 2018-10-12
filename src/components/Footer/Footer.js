@@ -8,7 +8,7 @@ class CustomFooter extends Component {
         return (
             <Navbar fixedBottom>
             <Navbar.Collapse>
-              <Navbar.Text Navbar-center >2018|CHILD.LK</Navbar.Text>
+              <Navbar.Text  >2018|CHILD.LK</Navbar.Text>
             </Navbar.Collapse>
           </Navbar>           
         );

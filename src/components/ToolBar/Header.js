@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import { Navbar, NavItem, Nav, } from 'react-bootstrap';
+import './Header.css';
 
-
+const header = {
+  backgroundColor: 'green'  
+};
 
 class CustomNavBar extends Component{
     render () {
      return (
-      <Navbar collapseOnSelect>
+      <Navbar fixedTop style={header}>
         <Navbar.Header>
           <Navbar.Brand>
             <a href="#brand">CHILD.LK</a>

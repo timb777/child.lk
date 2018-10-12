@@ -1,5 +1,9 @@
 import React, { Component } from'react';
 import { Carousel } from 'react-bootstrap';
+import ant from '../../../assests/ant.jpeg';
+import mountains from '../../../assests/mountains.jpeg';
+import sunset from '../../../assests/Sunset.jpeg';
+
 
 
 class Sliders extends Component {
@@ -7,24 +11,21 @@ class Sliders extends Component {
         return (
             <Carousel>
             <Carousel.Item>
-                <img width={900} height={500} alt="900x500" />
+                <img width={900} height={500} alt="900x500" src={ant} />
                 <Carousel.Caption>
-                <h3>First slide </h3>
-                <p>Baby Item 1</p>
+                <p>Pic 1</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img width={900} height={500} alt="900x500" src="../assests/ant.jpeg"/>
+                <img width={900} height={500} alt="900x500" src={mountains} />
                 <Carousel.Caption>
-                <h3>Second slide </h3>
-                <p>Baby Item 2</p>
+                <p>Pic Item 2</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img width={900} height={500} alt="900x500" />
+                <img width={900} height={500} alt="900x500" src={sunset} />
                 <Carousel.Caption>
-                <h3>Third slide </h3>
-                <p>Baby Item 3</p>
+                <p>Pic Item 3</p>
                 </Carousel.Caption>
             </Carousel.Item>
             </Carousel>            
